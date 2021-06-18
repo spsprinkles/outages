@@ -1,0 +1,39 @@
+{
+  "name": "outages",
+  "version": "0.0.1",
+  "description": "Displays a banner with outage information.",
+  "main": "src/index.ts",
+  "scripts": {
+    "all": "node ./clean.js && npm run build && npm run prod && npm run spfx",
+    "build": "webpack --mode=development",
+    "prod": "webpack --mode=production",
+    "spfx": "cd spfx && npm run package"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://dev.azure.com/gudatta/Datta%20Framework/_git/core-sp"
+  },
+  "keywords": [],
+  "author": "Gunjan Datta <gudatta@microsoft.com>",
+  "license": "ISC",
+  "dependencies": {
+    "gd-sprest-bs": "^7.6.6",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.6",
+    "html-loader": "^2.1.2",
+    "node-sass": "^6.0.0",
+    "sass-loader": "^11.1.1",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.2",
+    "ts-loader": "^9.2.2",
+    "typescript": "^4.3.2",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}

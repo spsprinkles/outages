@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <CustomAction
+        Title="OutagesBanner"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ClientSideComponentId="9f29c348-e8e9-4072-be2d-ad8ea59d5214"
+        ClientSideComponentProperties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </CustomAction>
+</Elements>

@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "Outages Banner",
+    "id": "b967d281-b51e-4016-9a53-ce54e5e5482e",
+    "version": "0.1.0.2",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Gunjan Datta",
+      "websiteUrl": "https://dev.azure.com/gudatta/Datta%20Framework/_git/outages",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    },
+    "features": [
+      {
+        "title": "Application Extension - Deployment of custom action.",
+        "description": "Deploys a custom action with ClientSideComponentId association",
+        "id": "6d3d3fe2-9a4a-4ed8-bfb7-7cd7afee7154",
+        "version": "1.0.0.0",
+        "assets": {
+          "elementManifests": [
+            "elements.xml",
+            "ClientSideInstance.xml"
+          ]
+        }
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "../../dist/outages.sppkg"
+  }
+}

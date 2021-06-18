@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "outages-banner-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/outagesBanner/OutagesBannerApplicationCustomizer.js",
+          "manifest": "./src/extensions/outagesBanner/OutagesBannerApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "OutagesBannerApplicationCustomizerStrings": "lib/extensions/outagesBanner/loc/{locale}.js"
+  }
+}
