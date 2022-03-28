@@ -1,5 +1,5 @@
+import { CanvasForm } from "dattatable";
 import { Components } from "gd-sprest-bs";
-import { CanvasForm } from "../common";
 import { DataSource } from "../ds";
 
 // Styling

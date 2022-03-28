@@ -5,7 +5,11 @@ specifiers:
   '@babel/preset-env': ^7.16.11
   babel-loader: ^8.2.4
   css-loader: ^5.2.7
-  gd-sprest-bs: ^9.3.7
+  datatables.net: ^1.11.5
+  datatables.net-bs5: ^1.11.5
+  dattatable: ^1.7.5
+  gd-sprest-bs: ^9.3.8
+  jquery: ^3.6.0
   moment: ^2.29.1
   moment-locales-webpack-plugin: ^1.2.0
   sass: ^1.49.9
@@ -19,7 +23,11 @@ specifiers:
   webpack-cli: ^4.9.2
 
 dependencies:
-  gd-sprest-bs: 9.3.7
+  datatables.net: 1.11.5
+  datatables.net-bs5: 1.11.5
+  dattatable: 1.7.5_4261c32646dd0719ff471f9b1a744d2f
+  gd-sprest-bs: 9.3.8
+  jquery: 3.6.0
   moment: 2.29.1
 
 devDependencies:
@@ -1686,6 +1694,35 @@ packages:
     hasBin: true
     dev: true
 
+  /datatables.net-bs5/1.11.5:
+    resolution: {integrity: sha512-1zyh972GtuK1uAb9h8nP3jJ7f/3UgCDq69LAaZS2bVd4mEHECJ6vrZLacxrkOHOs/q/H3v5sEMeZ46vXz8ox4w==}
+    dependencies:
+      datatables.net: 1.11.5
+      jquery: 3.6.0
+    dev: false
+
+  /datatables.net/1.11.5:
+    resolution: {integrity: sha512-nlFst2xfwSWaQgaOg5sXVG3cxYC0tH8E8d65289w9ROgF2TmLULOOpcdMpyxxUim/qEwVSEem42RjkTWEpr3eA==}
+    dependencies:
+      jquery: 3.6.0
+    dev: false
+
+  /dattatable/1.7.5_4261c32646dd0719ff471f9b1a744d2f:
+    resolution: {integrity: sha512-POKYNeshaqPHVDDKlq4AEn97rw3ifRyYjwLEo5gSAm5+Hr/xvfLdtFv8QFPz0chzok8k+YhWO5iSOuvPm0WSrA==}
+    peerDependencies:
+      datatables.net: '*'
+      datatables.net-bs5: '*'
+      gd-sprest-bs: '*'
+      jquery: '*'
+      moment: '*'
+    dependencies:
+      datatables.net: 1.11.5
+      datatables.net-bs5: 1.11.5
+      gd-sprest-bs: 9.3.8
+      jquery: 3.6.0
+      moment: 2.29.1
+    dev: false
+
   /debug/4.3.2:
     resolution: {integrity: sha512-mOp8wKcvj7XxC78zLgw/ZA+6TSgkoE2C/ienthhRD298T7UNwAg9diBpLRxC0mOezLl4B0xV7M0cCO6P/O0Xhw==}
     engines: {node: '>=6.0'}
@@ -1866,12 +1903,12 @@ packages:
       tippy.js: 6.3.7
     dev: false
 
-  /gd-sprest-bs/9.3.7:
-    resolution: {integrity: sha512-0gEva4Glmgebhy2zowA10y48muYU9bMs/KHwLMvU8tzWXiuLQukhTAx9RTWPZjBwud/lSxyz7kAqNN0ZYuSn1w==}
+  /gd-sprest-bs/9.3.8:
+    resolution: {integrity: sha512-o+DAlJAc9YBoX9GZ4cx2J5CuDtOOqkroiFrc7FhdMjlJ/KH3h2+Ht47kmjttbd2M1KpN9CMWyy4Bo/ikwysM9g==}
     dependencies:
       flatpickr: 4.6.11
       gd-bs: 5.4.3
-      gd-sprest: 6.9.0
+      gd-sprest: 6.9.1
       gd-sprest-def: 1.1.0
     dev: false
 
@@ -1879,8 +1916,8 @@ packages:
     resolution: {integrity: sha512-0uicOpS2ONpg3T9HQ1djoBmOPNbUgnUs6VJhYPsR1j3c64rmKBYZmeyUrUN2+1jwPcEcoe39X/XZDgiItLugaw==}
     dev: false
 
-  /gd-sprest/6.9.0:
-    resolution: {integrity: sha512-sS6SbuL4JQUuSmO0i05n/MZzVYbxe/1SgJawQpIsdKVVOOO+ndKJJDHVTImZqZ8aKBxgJiZ+lLBHUP0HP5cD1Q==}
+  /gd-sprest/6.9.1:
+    resolution: {integrity: sha512-XgXDKWH1EOEUORjTYIJBzrsQmKeJXObfzwK4CX5Lic3fcm7mFFRB/r9n/7khSi6KvgNoUSHpIrU7v0msrdlkkQ==}
     dependencies:
       gd-sprest-def: 1.1.0
     dev: false
@@ -2036,6 +2073,10 @@ packages:
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
+
+  /jquery/3.6.0:
+    resolution: {integrity: sha512-JVzAR/AjBvVt2BmYhxRCSYysDsPcssdmTFnzyLEts9qNwmjmu4JTAMYubEfwVOSwpQ1I1sKKFcxhZCI2buerfw==}
+    dev: false
 
   /js-tokens/4.0.0:
     resolution: {integrity: sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==}
