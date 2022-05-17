@@ -3,7 +3,7 @@
   "solution": {
     "name": "Outages Banner",
     "id": "b967d281-b51e-4016-9a53-ce54e5e5482e",
-    "version": "0.1.0.5",
+    "version": "0.1.0.6",
     "includeClientSideAssets": true,
     "isDomainIsolated": false,
     "skipFeatureDeployment": true,

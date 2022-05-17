@@ -10,7 +10,7 @@ import * as strings from 'OutagesBannerApplicationCustomizerStrings';
 const LOG_SOURCE: string = 'OutagesBannerApplicationCustomizer';
 
 // Reference the library
-import "../../../../dist/outages.js";
+import "../../../../dist/outages.min.js";
 declare var Outages;
 
 /**
