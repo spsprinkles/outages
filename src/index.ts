@@ -6,6 +6,9 @@ import Strings from "./strings";
 // Create the banner
 const banner = new Banner();
 
+// Styles
+import "./styles.scss";
+
 // Create the global variable for this solution
 window[Strings.GlobalVariable] = {
     Configuration,

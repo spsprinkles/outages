@@ -1,9 +1,6 @@
 import { CanvasForm } from "dattatable";
 import { Components } from "gd-sprest-bs";
-import { DataSource } from "../ds";
-
-// Styling
-import "./styles.scss";
+import { DataSource } from "./ds";
 
 // Status
 const Status = {

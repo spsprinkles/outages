@@ -3,9 +3,10 @@
   "solution": {
     "name": "Outages Banner",
     "id": "b967d281-b51e-4016-9a53-ce54e5e5482e",
-    "version": "0.1.0.2",
+    "version": "0.1.0.5",
     "includeClientSideAssets": true,
     "isDomainIsolated": false,
+    "skipFeatureDeployment": true,
     "developer": {
       "name": "Gunjan Datta",
       "websiteUrl": "https://dev.azure.com/gudatta/Datta%20Framework/_git/outages",

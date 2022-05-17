@@ -1,4 +1,4 @@
-import { List, Types } from "gd-sprest-bs";
+import { ContextInfo, Types, Web } from "gd-sprest-bs";
 import Strings from "./strings";
 
 // Item
@@ -13,7 +13,7 @@ export class DataSource {
         // Return a promise
         return new Promise((resolve, reject) => {
             // Load the data
-            List(Strings.Lists.Outages).Items().query({
+            Web(ContextInfo.siteServerRelativeUrl).Lists(Strings.Lists.Outages).Items().query({
                 GetAllItems: true,
                 OrderBy: ["Title"],
                 Top: 5000
